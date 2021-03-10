@@ -1,13 +1,18 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import { Welcome } from './Welcome';
+import { NavigationContainer } from '@react-navigation/native';
+
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
+    <NavigationContainer>
     <View style={styles.container}>
-      <Welcome name="Bob" />{/* (1) */}
-      <Welcome name="Tom" />{/* (1) */}
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto" />
     </View>
+    </NavigationContainer>
   );
 }
 
