@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "start-react-navigation",
-    "slug": "start-react-navigation",
+    "name": "my-2nd-react-native-app",
+    "slug": "my-2nd-react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
